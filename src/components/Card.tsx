@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { PersonajeModel } from '../models/personaje';
+import { CardOverly } from './card-overly';
 
 export function Card({ personajeModel }: { personajeModel: PersonajeModel }) {
     return (
@@ -29,6 +30,7 @@ export function Card({ personajeModel }: { personajeModel: PersonajeModel }) {
                             </li>
                         </ul>
                     </div>
+                    <CardOverly personaje={personajeModel}></CardOverly>
                 </div>
             </div>
         </>
