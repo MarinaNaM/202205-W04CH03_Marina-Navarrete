@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { PersonajeModel } from './personaje.js';
+import { PersonajeModel } from './personaje';
 
 export class ReyModel extends PersonajeModel {
     constructor(
