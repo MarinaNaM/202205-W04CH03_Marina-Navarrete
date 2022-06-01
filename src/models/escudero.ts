@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import { LuchadorModel } from './luchador.js';
-import { PersonajeModel } from './personaje.js';
+import { LuchadorModel } from './luchador';
+import { PersonajeModel } from './personaje';
 
 export class EscuderoModel extends PersonajeModel {
     constructor(
